@@ -42,11 +42,15 @@ func main() {
 	fmt.Println("init")
 	elems := []*Elem{
 		{
-			Text:             "hello",
-			HeavyProcessTime: 1,
+			Text:             "hello1",
+			HeavyProcessTime: 5,
 		},
 		{
 			Text:             "hello2",
+			HeavyProcessTime: 3,
+		},
+		{
+			Text:             "hello3",
 			HeavyProcessTime: 1,
 		},
 	}
